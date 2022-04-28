@@ -1,9 +1,13 @@
 package org.example;
 
-public class Phone {
-    private String mob;
+import org.springframework.stereotype.Component;
 
+@Component
+public class Phone {
+
+    private String mob;
     public Phone() {
+
     }
 
     public Phone(String mob) {
